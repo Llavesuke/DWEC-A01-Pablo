@@ -10,7 +10,8 @@ let sumaDigitos = 0
             for(let i = 0; i < number.length ; i++){
                 sumaDigitos += parseInt(number[i])
             }
+            alert(`Suma de los digitos => ${sumaDigitos}`)
+
     } else {
         alert("Debe introducir un numero mas grande")
     }
-alert(`Suma de los digitos => ${sumaDigitos}`)

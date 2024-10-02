@@ -2,7 +2,7 @@ let number = Number(prompt("Introduzca un número entero: ").trim());
 let factorial = 1
 
     // Compruebo primero si la variable es NaN o sino es un entero
-    if ((isNaN(number) || !Number.isInteger(number))) {
+    if ((isNaN(number) || !Number.isInteger(number) || number === 0)) {
         alert("Numero introducido no valido")
     } else {
         for(let i = 1; i <= number; i++) {
